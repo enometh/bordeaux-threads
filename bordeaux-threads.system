@@ -1,0 +1,132 @@
+;;; -*- Mode: LISP; Package: :cl-user; BASE: 10; Syntax: ANSI-Common-Lisp; -*-
+;;;
+;;;   Touched: Mon Aug 25 10:43:31 2008 +0530 <enometh@meer.net>
+;;;   Time-stamp: <>
+;;;   Bugs-To: enometh@meer.net
+;;;   Status: Experimental.  Do not redistribute
+;;;   Copyright (C) 2008-2023 Madhu.  All Rights Reserved.
+;;;
+;;; git://github.com/sionescu/bordeaux-threads
+;;;
+;;; 2017-07-24, Madhu  0.8.3
+;;; 2008-08-25, Madhu  0.4.0
+;;; 2020-07-28, Madhu  0.8.9 master
+;;; 2021-02 2022-11
+
+(in-package "CL-USER")
+
+(defvar *bordeaux-threads-source-dir*
+  (merge-pathnames "bordeaux-threads/" (translate-logical-pathname "EXTERN:")))
+(defvar *bordeaux-threads-binary-dir* (binary-directory *bordeaux-threads-source-dir*))
+
+(eval-when (:compile-toplevel :load-toplevel :execute)
+  #+(and allegro (version>= 9)) (require :smputil)
+  #+(and allegro (not (version>= 9))) (require "process")
+  #+corman  (require :threads))
+
+(eval-when (:compile-toplevel :load-toplevel :execute)
+  #+(or armedbear
+        (and allegro multiprocessing)
+        (and clasp threads)
+        (and clisp mt)
+        (and openmcl openmcl-native-threads)
+        (and cmu mp)
+        corman
+        (and ecl threads)
+	genera
+        mezzano
+        mkcl
+        lispworks
+        (and digitool ccl-5.1)
+        (and sbcl sb-thread)
+        scl)
+  (pushnew :thread-support *features*))
+
+
+#+(and (not clisp) (not thread-support))
+(error "This implementation is unsupported.")
+
+(mk:defsystem :bordeaux-threads
+  :source-pathname *bordeaux-threads-source-dir*
+  :binary-pathname *bordeaux-threads-binary-dir*
+  :source-extension "lisp"
+  :depends-on (:alexandria :global-vars :trivial-features :trivial-garbage)
+  :components ((:module "api-v1"
+		:source-pathname "apiv1/"
+                :components
+		((:file "pkgdcl")
+                 (:file "bordeaux-threads")
+                 (:file "impl-abcl" :if-feature :armedbear)
+                 (:file "impl-allegro" :if-feature :allegro)
+                 (:file "impl-clasp" :if-feature :clasp)
+                 (:file "impl-clisp" :if-feature (:and :clisp :thread-support))
+                 (:file "impl-clozure" :if-feature :openmcl)
+                 (:file "impl-cmucl" :if-feature :cmu)
+                 (:file "impl-corman" :if-feature :corman)
+                 (:file "impl-ecl" :if-feature :ecl)
+                 (:file "impl-genera" :if-feature :genera)
+                 (:file "impl-mezzano" :if-feature :mezzano)
+                 (:file "impl-mkcl" :if-feature :mkcl)
+                 (:file "impl-lispworks" :if-feature :lispworks)
+                 (:file "impl-mcl" :if-feature :digitool)
+                 (:file "impl-sbcl" :if-feature :sbcl)
+                 (:file "impl-scl" :if-feature :scl)
+                 (:file "impl-lispworks-condition-variables"
+		  :if-feature (:and :lispworks
+			       (:or :lispworks4 :lispworks5)))
+                 (:file "condition-variables" :if-feature :digitool)
+                 (:file "default-implementations")))
+               (:module "api-v2"
+                :source-pathname "apiv2/"
+                :depends-on ("api-v1")
+                :components
+		((:file "pkgdcl")
+                 (:file "bordeaux-threads")
+                 (:file "timeout-interrupt")
+                 (:file "impl-abcl" :if-feature :abcl)
+                 (:file "impl-allegro" :if-feature :allegro)
+                 (:file "impl-clasp" :if-feature :clasp)
+                 (:file "impl-clisp" :if-feature (:and :clisp :thread-support))
+                 (:file "impl-clozure" :if-feature :clozure)
+                 (:file "impl-cmucl" :if-feature :cmu)
+                 (:file "impl-corman" :if-feature :corman)
+                 (:file "impl-ecl" :if-feature :ecl)
+                 (:file "impl-genera" :if-feature :genera)
+                 (:file "impl-mezzano" :if-feature :mezzano)
+                 (:file "impl-mkcl" :if-feature :mkcl)
+                 (:file "impl-lispworks" :if-feature :lispworks)
+                 (:file "impl-mcl" :if-feature :digitool)
+                 (:file "impl-sbcl" :if-feature :sbcl)
+                 (:file "impl-scl" :if-feature :scl)
+                 (:file "atomics" :if-feature (:not :abcl))
+                 (:file "atomics-java" :if-feature :abcl)
+                 (:file "api-locks")
+                 (:file "api-threads")
+                 (:file "api-semaphores")
+                 (:file "impl-condition-variables-semaphores"
+                  :if-feature :ccl)
+                 (:file "api-condition-variables")))))
+
+#+nil
+(mk:oos :bordeaux-threads :load :compile-during-load t)
+
+
+(mk:defsystem :bordeaux-threads-test
+  :source-pathname *bordeaux-threads-source-dir*
+  :binary-pathname *bordeaux-threads-binary-dir*
+  :source-extension "lisp"
+  :depends-on (:bordeaux-threads :fiveam)
+  :components
+  ((:module "test"
+    :components ((:file "tests-v1")
+		 (:file "pkgdcl")
+		 (:file "not-implemented")
+		 (:file "tests-v2")))))
+
+#+nil
+(mk:oos :bordeaux-threads-test :load :compile-during-load t)
+
+#+nil
+(5am:run! :bordeaux-threads-2)
+
+
