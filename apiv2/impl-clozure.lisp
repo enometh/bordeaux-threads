@@ -35,7 +35,9 @@
   (ccl:process-interrupt thread function))
 
 (defun %destroy-thread (thread)
-  (ccl:process-kill thread))
+  (ccl:process-kill thread) ;; doesn't cut it
+  #+nil
+  (ccl::process-initial-form-exited thread :kill))
 
 (defun %thread-alive-p (thread)
   (not (ccl:process-exhausted-p thread)))
