@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Atomics dictionary on Bordeaux-Threads</title>
+    <link>https://sionescu.github.io/bordeaux-threads/atomics/</link>
+    <description>Recent content in Atomics dictionary on Bordeaux-Threads</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 25 Jul 2020 08:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://sionescu.github.io/bordeaux-threads/atomics/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>TODO: Class ATOMIC-INTEGER</title>
+      <link>https://sionescu.github.io/bordeaux-threads/atomics/atomic-integer/</link>
+      <pubDate>Sat, 25 Jul 2020 08:00:00 +0000</pubDate>
+      
+      <guid>https://sionescu.github.io/bordeaux-threads/atomics/atomic-integer/</guid>
+      <description>Syntax: Arguments and values: Exceptional situations: None.
+See also: Notes: </description>
+    </item>
+    
+    <item>
+      <title>TODO: Function ATOMIC-INTEGER-P</title>
+      <link>https://sionescu.github.io/bordeaux-threads/atomics/atomic-integer-p/</link>
+      <pubDate>Sat, 25 Jul 2020 08:00:00 +0000</pubDate>
+      
+      <guid>https://sionescu.github.io/bordeaux-threads/atomics/atomic-integer-p/</guid>
+      <description>Syntax: Arguments and values: Exceptional situations: None.
+See also: Notes: </description>
+    </item>
+    
+    <item>
+      <title>TODO: Function MAKE-ATOMIC-INTEGER</title>
+      <link>https://sionescu.github.io/bordeaux-threads/atomics/make-atomic-integer/</link>
+      <pubDate>Sat, 25 Jul 2020 08:00:00 +0000</pubDate>
+      
+      <guid>https://sionescu.github.io/bordeaux-threads/atomics/make-atomic-integer/</guid>
+      <description>Syntax: Arguments and values: Exceptional situations: None.
+See also: Notes: </description>
+    </item>
+    
+    <item>
+      <title>TODO: Function ATOMIC-INTEGER-CAS</title>
+      <link>https://sionescu.github.io/bordeaux-threads/atomics/atomic-integer-cas/</link>
+      <pubDate>Sat, 25 Jul 2020 08:00:00 +0000</pubDate>
+      
+      <guid>https://sionescu.github.io/bordeaux-threads/atomics/atomic-integer-cas/</guid>
+      <description>Syntax: Arguments and values: Exceptional situations: None.
+See also: Notes: </description>
+    </item>
+    
+    <item>
+      <title>TODO: Function ATOMIC-INTEGER-DECF</title>
+      <link>https://sionescu.github.io/bordeaux-threads/atomics/atomic-integer-decf/</link>
+      <pubDate>Sat, 25 Jul 2020 08:00:00 +0000</pubDate>
+      
+      <guid>https://sionescu.github.io/bordeaux-threads/atomics/atomic-integer-decf/</guid>
+      <description>Syntax: Arguments and values: Exceptional situations: None.
+See also: Notes: </description>
+    </item>
+    
+    <item>
+      <title>TODO: Function ATOMIC-INTEGER-INCF</title>
+      <link>https://sionescu.github.io/bordeaux-threads/atomics/atomic-integer-incf/</link>
+      <pubDate>Sat, 25 Jul 2020 08:00:00 +0000</pubDate>
+      
+      <guid>https://sionescu.github.io/bordeaux-threads/atomics/atomic-integer-incf/</guid>
+      <description>Syntax: Arguments and values: Exceptional situations: None.
+See also: Notes: </description>
+    </item>
+    
+    <item>
+      <title>TODO: Function ATOMIC-INTEGER-VALUE</title>
+      <link>https://sionescu.github.io/bordeaux-threads/atomics/atomic-integer-value/</link>
+      <pubDate>Sat, 25 Jul 2020 08:00:00 +0000</pubDate>
+      
+      <guid>https://sionescu.github.io/bordeaux-threads/atomics/atomic-integer-value/</guid>
+      <description>Syntax: Arguments and values: Exceptional situations: None.
+See also: Notes: </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Timeouts dictionary on Bordeaux-Threads</title>
+    <link>https://sionescu.github.io/bordeaux-threads/timeouts/</link>
+    <description>Recent content in Timeouts dictionary on Bordeaux-Threads</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 25 Jul 2020 08:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://sionescu.github.io/bordeaux-threads/timeouts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>TODO: Class TIMEOUT</title>
+      <link>https://sionescu.github.io/bordeaux-threads/timeouts/timeout/</link>
+      <pubDate>Sat, 25 Jul 2020 08:00:00 +0000</pubDate>
+      
+      <guid>https://sionescu.github.io/bordeaux-threads/timeouts/timeout/</guid>
+      <description>Syntax: Arguments and values: Exceptional situations: None.
+See also: Notes: </description>
+    </item>
+    
+    <item>
+      <title>TODO: Macro WITH-TIMEOUT</title>
+      <link>https://sionescu.github.io/bordeaux-threads/timeouts/with-timeout/</link>
+      <pubDate>Sat, 25 Jul 2020 08:00:00 +0000</pubDate>
+      
+      <guid>https://sionescu.github.io/bordeaux-threads/timeouts/with-timeout/</guid>
+      <description>Syntax: Arguments and values: Exceptional situations: None.
+See also: Notes: </description>
+    </item>
+    
+  </channel>
+</rss>

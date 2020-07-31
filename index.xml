@@ -1,0 +1,498 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentation on Bordeaux-Threads</title>
+    <link>https://sionescu.github.io/bordeaux-threads/</link>
+    <description>Recent content in Documentation on Bordeaux-Threads</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 25 Jul 2020 08:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://sionescu.github.io/bordeaux-threads/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Class THREAD</title>
+      <link>https://sionescu.github.io/bordeaux-threads/threads/thread/</link>
+      <pubDate>Sat, 25 Jul 2020 08:00:00 +0000</pubDate>
+      
+      <guid>https://sionescu.github.io/bordeaux-threads/threads/thread/</guid>
+      <description>Class precedence list: thread, t
+Description A wrapper for host thread instances.</description>
+    </item>
+    
+    <item>
+      <title>TODO: Class ATOMIC-INTEGER</title>
+      <link>https://sionescu.github.io/bordeaux-threads/atomics/atomic-integer/</link>
+      <pubDate>Sat, 25 Jul 2020 08:00:00 +0000</pubDate>
+      
+      <guid>https://sionescu.github.io/bordeaux-threads/atomics/atomic-integer/</guid>
+      <description>Syntax: Arguments and values: Exceptional situations: None.
+See also: Notes: </description>
+    </item>
+    
+    <item>
+      <title>TODO: Class CONDITION-VARIABLE</title>
+      <link>https://sionescu.github.io/bordeaux-threads/condition-variables/condition-variable/</link>
+      <pubDate>Sat, 25 Jul 2020 08:00:00 +0000</pubDate>
+      
+      <guid>https://sionescu.github.io/bordeaux-threads/condition-variables/condition-variable/</guid>
+      <description>Syntax: Arguments and values: Exceptional situations: None.
+See also: Notes: </description>
+    </item>
+    
+    <item>
+      <title>TODO: Class LOCK</title>
+      <link>https://sionescu.github.io/bordeaux-threads/locks/lock/</link>
+      <pubDate>Sat, 25 Jul 2020 08:00:00 +0000</pubDate>
+      
+      <guid>https://sionescu.github.io/bordeaux-threads/locks/lock/</guid>
+      <description>Syntax: Arguments and values: Exceptional situations: None.
+See also: Notes: </description>
+    </item>
+    
+    <item>
+      <title>TODO: Class SEMAPHORE</title>
+      <link>https://sionescu.github.io/bordeaux-threads/semaphores/semaphore/</link>
+      <pubDate>Sat, 25 Jul 2020 08:00:00 +0000</pubDate>
+      
+      <guid>https://sionescu.github.io/bordeaux-threads/semaphores/semaphore/</guid>
+      <description>Syntax: Arguments and values: Exceptional situations: None.
+See also: Notes: </description>
+    </item>
+    
+    <item>
+      <title>TODO: Class TIMEOUT</title>
+      <link>https://sionescu.github.io/bordeaux-threads/timeouts/timeout/</link>
+      <pubDate>Sat, 25 Jul 2020 08:00:00 +0000</pubDate>
+      
+      <guid>https://sionescu.github.io/bordeaux-threads/timeouts/timeout/</guid>
+      <description>Syntax: Arguments and values: Exceptional situations: None.
+See also: Notes: </description>
+    </item>
+    
+    <item>
+      <title>Function THREAD-NAME, THREAD-NATIVE-THREAD</title>
+      <link>https://sionescu.github.io/bordeaux-threads/threads/thread-readers/</link>
+      <pubDate>Sat, 25 Jul 2020 08:00:00 +0000</pubDate>
+      
+      <guid>https://sionescu.github.io/bordeaux-threads/threads/thread-readers/</guid>
+      <description>Syntax: thread-name thread =&amp;gt; name
+thread-native-thread thread =&amp;gt; native-thread
+Arguments and values: thread -&amp;gt; an instance of class thread.
+name -&amp;gt; a string or nil
+native-thread -&amp;gt; a host thread instance.
+Description: These accessors return the public slots of class thread.
+Exceptional situations: None.</description>
+    </item>
+    
+    <item>
+      <title>TODO: Function ATOMIC-INTEGER-P</title>
+      <link>https://sionescu.github.io/bordeaux-threads/atomics/atomic-integer-p/</link>
+      <pubDate>Sat, 25 Jul 2020 08:00:00 +0000</pubDate>
+      
+      <guid>https://sionescu.github.io/bordeaux-threads/atomics/atomic-integer-p/</guid>
+      <description>Syntax: Arguments and values: Exceptional situations: None.
+See also: Notes: </description>
+    </item>
+    
+    <item>
+      <title>TODO: Function CONDITION-VARIABLE-P</title>
+      <link>https://sionescu.github.io/bordeaux-threads/condition-variables/condition-variable-p/</link>
+      <pubDate>Sat, 25 Jul 2020 08:00:00 +0000</pubDate>
+      
+      <guid>https://sionescu.github.io/bordeaux-threads/condition-variables/condition-variable-p/</guid>
+      <description>Syntax: Arguments and values: Exceptional situations: None.
+See also: Notes: </description>
+    </item>
+    
+    <item>
+      <title>TODO: Function LOCKP</title>
+      <link>https://sionescu.github.io/bordeaux-threads/locks/lockp/</link>
+      <pubDate>Sat, 25 Jul 2020 08:00:00 +0000</pubDate>
+      
+      <guid>https://sionescu.github.io/bordeaux-threads/locks/lockp/</guid>
+      <description>Syntax: Arguments and values: Exceptional situations: None.
+See also: Notes: </description>
+    </item>
+    
+    <item>
+      <title>TODO: Function SEMAPHOREP</title>
+      <link>https://sionescu.github.io/bordeaux-threads/semaphores/semaphorep/</link>
+      <pubDate>Sat, 25 Jul 2020 08:00:00 +0000</pubDate>
+      
+      <guid>https://sionescu.github.io/bordeaux-threads/semaphores/semaphorep/</guid>
+      <description>Syntax: Arguments and values: Exceptional situations: None.
+See also: Notes: </description>
+    </item>
+    
+    <item>
+      <title>TODO: Macro WITH-TIMEOUT</title>
+      <link>https://sionescu.github.io/bordeaux-threads/timeouts/with-timeout/</link>
+      <pubDate>Sat, 25 Jul 2020 08:00:00 +0000</pubDate>
+      
+      <guid>https://sionescu.github.io/bordeaux-threads/timeouts/with-timeout/</guid>
+      <description>Syntax: Arguments and values: Exceptional situations: None.
+See also: Notes: </description>
+    </item>
+    
+    <item>
+      <title>Function: THREADP</title>
+      <link>https://sionescu.github.io/bordeaux-threads/threads/threadp/</link>
+      <pubDate>Sat, 25 Jul 2020 08:00:00 +0000</pubDate>
+      
+      <guid>https://sionescu.github.io/bordeaux-threads/threads/threadp/</guid>
+      <description>Syntax: threadp object =&amp;gt; generalized-boolean
+Arguments and values: object -&amp;gt; an object.
+generalized-boolean -&amp;gt; a generalized boolean.
+Description: Returns true if object is of type thread, otherwise false.
+Exceptional situations: None.
+Notes: (threadp object) == (typep object &#39;thread)</description>
+    </item>
+    
+    <item>
+      <title>TODO: Class RECURSIVE-LOCK</title>
+      <link>https://sionescu.github.io/bordeaux-threads/locks/recursive-lock/</link>
+      <pubDate>Sat, 25 Jul 2020 08:00:00 +0000</pubDate>
+      
+      <guid>https://sionescu.github.io/bordeaux-threads/locks/recursive-lock/</guid>
+      <description>Syntax: Arguments and values: Exceptional situations: None.
+See also: Notes: </description>
+    </item>
+    
+    <item>
+      <title>TODO: Function MAKE-ATOMIC-INTEGER</title>
+      <link>https://sionescu.github.io/bordeaux-threads/atomics/make-atomic-integer/</link>
+      <pubDate>Sat, 25 Jul 2020 08:00:00 +0000</pubDate>
+      
+      <guid>https://sionescu.github.io/bordeaux-threads/atomics/make-atomic-integer/</guid>
+      <description>Syntax: Arguments and values: Exceptional situations: None.
+See also: Notes: </description>
+    </item>
+    
+    <item>
+      <title>TODO: Function MAKE-CONDITION-VARIABLE</title>
+      <link>https://sionescu.github.io/bordeaux-threads/condition-variables/make-condition-variable/</link>
+      <pubDate>Sat, 25 Jul 2020 08:00:00 +0000</pubDate>
+      
+      <guid>https://sionescu.github.io/bordeaux-threads/condition-variables/make-condition-variable/</guid>
+      <description>Syntax: Arguments and values: Exceptional situations: None.
+See also: Notes: </description>
+    </item>
+    
+    <item>
+      <title>TODO: Function MAKE-SEMAPHORE</title>
+      <link>https://sionescu.github.io/bordeaux-threads/semaphores/make-semaphore/</link>
+      <pubDate>Sat, 25 Jul 2020 08:00:00 +0000</pubDate>
+      
+      <guid>https://sionescu.github.io/bordeaux-threads/semaphores/make-semaphore/</guid>
+      <description>Syntax: Arguments and values: Exceptional situations: None.
+See also: Notes: </description>
+    </item>
+    
+    <item>
+      <title>Function: MAKE-THREAD</title>
+      <link>https://sionescu.github.io/bordeaux-threads/threads/make-thread/</link>
+      <pubDate>Sat, 25 Jul 2020 08:00:00 +0000</pubDate>
+      
+      <guid>https://sionescu.github.io/bordeaux-threads/threads/make-thread/</guid>
+      <description>Syntax: make-thread function &amp;amp;key name initial-bindings handle-conditions =&amp;gt; thread
+Arguments and values: function -&amp;gt; a function designator
+name -&amp;gt; a string or nil.
+initial-bindings -&amp;gt; an alist mapping special variable names to values. Defaults to *default-special-bindings*.
+handle-conditions -&amp;gt; if true, wrap the thread function in a handler-case.
+Description: Creates and returns a thread named name, which will call the function function with no arguments: when function returns, the thread terminates.</description>
+    </item>
+    
+    <item>
+      <title>TODO: Function ATOMIC-INTEGER-CAS</title>
+      <link>https://sionescu.github.io/bordeaux-threads/atomics/atomic-integer-cas/</link>
+      <pubDate>Sat, 25 Jul 2020 08:00:00 +0000</pubDate>
+      
+      <guid>https://sionescu.github.io/bordeaux-threads/atomics/atomic-integer-cas/</guid>
+      <description>Syntax: Arguments and values: Exceptional situations: None.
+See also: Notes: </description>
+    </item>
+    
+    <item>
+      <title>TODO: Function CONDITION-WAIT</title>
+      <link>https://sionescu.github.io/bordeaux-threads/condition-variables/condition-variable-wait/</link>
+      <pubDate>Sat, 25 Jul 2020 08:00:00 +0000</pubDate>
+      
+      <guid>https://sionescu.github.io/bordeaux-threads/condition-variables/condition-variable-wait/</guid>
+      <description>Syntax: Arguments and values: Exceptional situations: None.
+See also: Notes: </description>
+    </item>
+    
+    <item>
+      <title>TODO: Function RECURSIVE-LOCK-P</title>
+      <link>https://sionescu.github.io/bordeaux-threads/locks/recursive-lock-p/</link>
+      <pubDate>Sat, 25 Jul 2020 08:00:00 +0000</pubDate>
+      
+      <guid>https://sionescu.github.io/bordeaux-threads/locks/recursive-lock-p/</guid>
+      <description>Syntax: Arguments and values: Exceptional situations: None.
+See also: Notes: </description>
+    </item>
+    
+    <item>
+      <title>TODO: Function SIGNAL-SEMAPHORE</title>
+      <link>https://sionescu.github.io/bordeaux-threads/semaphores/signal-semaphore/</link>
+      <pubDate>Sat, 25 Jul 2020 08:00:00 +0000</pubDate>
+      
+      <guid>https://sionescu.github.io/bordeaux-threads/semaphores/signal-semaphore/</guid>
+      <description>Syntax: Arguments and values: Exceptional situations: None.
+See also: Notes: </description>
+    </item>
+    
+    <item>
+      <title>TODO: Function ATOMIC-INTEGER-DECF</title>
+      <link>https://sionescu.github.io/bordeaux-threads/atomics/atomic-integer-decf/</link>
+      <pubDate>Sat, 25 Jul 2020 08:00:00 +0000</pubDate>
+      
+      <guid>https://sionescu.github.io/bordeaux-threads/atomics/atomic-integer-decf/</guid>
+      <description>Syntax: Arguments and values: Exceptional situations: None.
+See also: Notes: </description>
+    </item>
+    
+    <item>
+      <title>TODO: Function CONDITION-NOTIFY</title>
+      <link>https://sionescu.github.io/bordeaux-threads/condition-variables/condition-variable-notify/</link>
+      <pubDate>Sat, 25 Jul 2020 08:00:00 +0000</pubDate>
+      
+      <guid>https://sionescu.github.io/bordeaux-threads/condition-variables/condition-variable-notify/</guid>
+      <description>Syntax: Arguments and values: Exceptional situations: None.
+See also: Notes: </description>
+    </item>
+    
+    <item>
+      <title>TODO: Function LOCK-NAME, LOCK-NATIVE-LOCK</title>
+      <link>https://sionescu.github.io/bordeaux-threads/locks/lock-readers/</link>
+      <pubDate>Sat, 25 Jul 2020 08:00:00 +0000</pubDate>
+      
+      <guid>https://sionescu.github.io/bordeaux-threads/locks/lock-readers/</guid>
+      <description>Syntax: Arguments and values: Exceptional situations: None.
+See also: Notes: </description>
+    </item>
+    
+    <item>
+      <title>TODO: Function WAIT-ON-SEMAPHORE</title>
+      <link>https://sionescu.github.io/bordeaux-threads/semaphores/wait-on-semaphore/</link>
+      <pubDate>Sat, 25 Jul 2020 08:00:00 +0000</pubDate>
+      
+      <guid>https://sionescu.github.io/bordeaux-threads/semaphores/wait-on-semaphore/</guid>
+      <description>Syntax: Arguments and values: Exceptional situations: None.
+See also: Notes: </description>
+    </item>
+    
+    <item>
+      <title>TODO: Variable *DEFAULT-SPECIAL-BINDINGS*</title>
+      <link>https://sionescu.github.io/bordeaux-threads/threads/default-special-bindings/</link>
+      <pubDate>Sat, 25 Jul 2020 08:00:00 +0000</pubDate>
+      
+      <guid>https://sionescu.github.io/bordeaux-threads/threads/default-special-bindings/</guid>
+      <description>Syntax: Arguments and values: Exceptional situations: None.
+See also: Notes: </description>
+    </item>
+    
+    <item>
+      <title>TODO: Function ATOMIC-INTEGER-INCF</title>
+      <link>https://sionescu.github.io/bordeaux-threads/atomics/atomic-integer-incf/</link>
+      <pubDate>Sat, 25 Jul 2020 08:00:00 +0000</pubDate>
+      
+      <guid>https://sionescu.github.io/bordeaux-threads/atomics/atomic-integer-incf/</guid>
+      <description>Syntax: Arguments and values: Exceptional situations: None.
+See also: Notes: </description>
+    </item>
+    
+    <item>
+      <title>TODO: Function CONDITION-BROADCAST</title>
+      <link>https://sionescu.github.io/bordeaux-threads/condition-variables/condition-variable-broadcast/</link>
+      <pubDate>Sat, 25 Jul 2020 08:00:00 +0000</pubDate>
+      
+      <guid>https://sionescu.github.io/bordeaux-threads/condition-variables/condition-variable-broadcast/</guid>
+      <description>Syntax: Arguments and values: Exceptional situations: None.
+See also: Notes: </description>
+    </item>
+    
+    <item>
+      <title>TODO: Function CURRENT-THREAD, ALL-THREADS</title>
+      <link>https://sionescu.github.io/bordeaux-threads/threads/current-all-threads/</link>
+      <pubDate>Sat, 25 Jul 2020 08:00:00 +0000</pubDate>
+      
+      <guid>https://sionescu.github.io/bordeaux-threads/threads/current-all-threads/</guid>
+      <description>Syntax: Arguments and values: Exceptional situations: None.
+See also: Notes: </description>
+    </item>
+    
+    <item>
+      <title>TODO: Function NATIVE-LOCK</title>
+      <link>https://sionescu.github.io/bordeaux-threads/locks/native-lock/</link>
+      <pubDate>Sat, 25 Jul 2020 08:00:00 +0000</pubDate>
+      
+      <guid>https://sionescu.github.io/bordeaux-threads/locks/native-lock/</guid>
+      <description>Syntax: Arguments and values: Exceptional situations: None.
+See also: Notes: </description>
+    </item>
+    
+    <item>
+      <title>TODO: Function ATOMIC-INTEGER-VALUE</title>
+      <link>https://sionescu.github.io/bordeaux-threads/atomics/atomic-integer-value/</link>
+      <pubDate>Sat, 25 Jul 2020 08:00:00 +0000</pubDate>
+      
+      <guid>https://sionescu.github.io/bordeaux-threads/atomics/atomic-integer-value/</guid>
+      <description>Syntax: Arguments and values: Exceptional situations: None.
+See also: Notes: </description>
+    </item>
+    
+    <item>
+      <title>TODO: Function JOIN-THREAD</title>
+      <link>https://sionescu.github.io/bordeaux-threads/threads/join-thread/</link>
+      <pubDate>Sat, 25 Jul 2020 08:00:00 +0000</pubDate>
+      
+      <guid>https://sionescu.github.io/bordeaux-threads/threads/join-thread/</guid>
+      <description>Syntax: Arguments and values: Exceptional situations: None.
+See also: Notes: </description>
+    </item>
+    
+    <item>
+      <title>TODO: Function NATIVE-LOCK-P</title>
+      <link>https://sionescu.github.io/bordeaux-threads/locks/native-lock-p/</link>
+      <pubDate>Sat, 25 Jul 2020 08:00:00 +0000</pubDate>
+      
+      <guid>https://sionescu.github.io/bordeaux-threads/locks/native-lock-p/</guid>
+      <description>Syntax: Arguments and values: Exceptional situations: None.
+See also: Notes: </description>
+    </item>
+    
+    <item>
+      <title>TODO: Condition type ABNORMAL-EXIT</title>
+      <link>https://sionescu.github.io/bordeaux-threads/threads/abnormal-exit/</link>
+      <pubDate>Sat, 25 Jul 2020 08:00:00 +0000</pubDate>
+      
+      <guid>https://sionescu.github.io/bordeaux-threads/threads/abnormal-exit/</guid>
+      <description>Syntax: Arguments and values: Exceptional situations: None.
+See also: Notes: </description>
+    </item>
+    
+    <item>
+      <title>TODO: Function MAKE-LOCK</title>
+      <link>https://sionescu.github.io/bordeaux-threads/locks/make-lock/</link>
+      <pubDate>Sat, 25 Jul 2020 08:00:00 +0000</pubDate>
+      
+      <guid>https://sionescu.github.io/bordeaux-threads/locks/make-lock/</guid>
+      <description>Syntax: Arguments and values: Exceptional situations: None.
+See also: Notes: </description>
+    </item>
+    
+    <item>
+      <title>TODO: Function ACQUIRE-LOCK, RELEASE-LOCK</title>
+      <link>https://sionescu.github.io/bordeaux-threads/locks/acquire-release-lock/</link>
+      <pubDate>Sat, 25 Jul 2020 08:00:00 +0000</pubDate>
+      
+      <guid>https://sionescu.github.io/bordeaux-threads/locks/acquire-release-lock/</guid>
+      <description>Syntax: Arguments and values: Exceptional situations: None.
+See also: Notes: </description>
+    </item>
+    
+    <item>
+      <title>TODO: Function THREAD-YIELD</title>
+      <link>https://sionescu.github.io/bordeaux-threads/threads/thread-yield/</link>
+      <pubDate>Sat, 25 Jul 2020 08:00:00 +0000</pubDate>
+      
+      <guid>https://sionescu.github.io/bordeaux-threads/threads/thread-yield/</guid>
+      <description>Syntax: Arguments and values: Exceptional situations: None.
+See also: Notes: </description>
+    </item>
+    
+    <item>
+      <title>TODO: Function START-MULTIPROCESSING</title>
+      <link>https://sionescu.github.io/bordeaux-threads/threads/start-multiprocessing/</link>
+      <pubDate>Sat, 25 Jul 2020 08:00:00 +0000</pubDate>
+      
+      <guid>https://sionescu.github.io/bordeaux-threads/threads/start-multiprocessing/</guid>
+      <description>Syntax: Arguments and values: Exceptional situations: None.
+See also: Notes: </description>
+    </item>
+    
+    <item>
+      <title>TODO: Macro WITH-LOCK-HELD</title>
+      <link>https://sionescu.github.io/bordeaux-threads/locks/with-lock-held/</link>
+      <pubDate>Sat, 25 Jul 2020 08:00:00 +0000</pubDate>
+      
+      <guid>https://sionescu.github.io/bordeaux-threads/locks/with-lock-held/</guid>
+      <description>Syntax: Arguments and values: Exceptional situations: None.
+See also: Notes: </description>
+    </item>
+    
+    <item>
+      <title>TODO: Function INTERRUPT-THREAD</title>
+      <link>https://sionescu.github.io/bordeaux-threads/threads/interrupt-thread/</link>
+      <pubDate>Sat, 25 Jul 2020 08:00:00 +0000</pubDate>
+      
+      <guid>https://sionescu.github.io/bordeaux-threads/threads/interrupt-thread/</guid>
+      <description>Syntax: Arguments and values: Exceptional situations: None.
+See also: Notes: </description>
+    </item>
+    
+    <item>
+      <title>TODO: Function MAKE-RECURSIVE-LOCK</title>
+      <link>https://sionescu.github.io/bordeaux-threads/locks/make-recursive-lock/</link>
+      <pubDate>Sat, 25 Jul 2020 08:00:00 +0000</pubDate>
+      
+      <guid>https://sionescu.github.io/bordeaux-threads/locks/make-recursive-lock/</guid>
+      <description>Syntax: Arguments and values: Exceptional situations: None.
+See also: Notes: </description>
+    </item>
+    
+    <item>
+      <title>TODO: Function ACQUIRE-RECURSIVE-LOCK, RELEASE-RECURSIVE-LOCK</title>
+      <link>https://sionescu.github.io/bordeaux-threads/locks/acquire-release-recursive-lock/</link>
+      <pubDate>Sat, 25 Jul 2020 08:00:00 +0000</pubDate>
+      
+      <guid>https://sionescu.github.io/bordeaux-threads/locks/acquire-release-recursive-lock/</guid>
+      <description>Syntax: Arguments and values: Exceptional situations: None.
+See also: Notes: </description>
+    </item>
+    
+    <item>
+      <title>TODO: Function SIGNAL-IN-THREAD, WARN-IN-THREAD, ERROR-IN-THREAD</title>
+      <link>https://sionescu.github.io/bordeaux-threads/threads/signal-in-thread/</link>
+      <pubDate>Sat, 25 Jul 2020 08:00:00 +0000</pubDate>
+      
+      <guid>https://sionescu.github.io/bordeaux-threads/threads/signal-in-thread/</guid>
+      <description>Syntax: Arguments and values: Exceptional situations: None.
+See also: Notes: </description>
+    </item>
+    
+    <item>
+      <title>TODO: Function DESTROY-THREAD</title>
+      <link>https://sionescu.github.io/bordeaux-threads/threads/destroy-thread/</link>
+      <pubDate>Sat, 25 Jul 2020 08:00:00 +0000</pubDate>
+      
+      <guid>https://sionescu.github.io/bordeaux-threads/threads/destroy-thread/</guid>
+      <description>Syntax: Arguments and values: Exceptional situations: None.
+See also: Notes: </description>
+    </item>
+    
+    <item>
+      <title>TODO: Macro WITH-RECURSIVE-LOCK-HELD</title>
+      <link>https://sionescu.github.io/bordeaux-threads/locks/with-recursive-lock-held/</link>
+      <pubDate>Sat, 25 Jul 2020 08:00:00 +0000</pubDate>
+      
+      <guid>https://sionescu.github.io/bordeaux-threads/locks/with-recursive-lock-held/</guid>
+      <description>Syntax: Arguments and values: Exceptional situations: None.
+See also: Notes: </description>
+    </item>
+    
+    <item>
+      <title>TODO: Function THREAD-ALIVE-P</title>
+      <link>https://sionescu.github.io/bordeaux-threads/threads/thread-alive-p/</link>
+      <pubDate>Sat, 25 Jul 2020 08:00:00 +0000</pubDate>
+      
+      <guid>https://sionescu.github.io/bordeaux-threads/threads/thread-alive-p/</guid>
+      <description>Syntax: Arguments and values: Exceptional situations: None.
+See also: Notes: </description>
+    </item>
+    
+  </channel>
+</rss>

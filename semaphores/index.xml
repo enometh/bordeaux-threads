@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Semaphores dictionary on Bordeaux-Threads</title>
+    <link>https://sionescu.github.io/bordeaux-threads/semaphores/</link>
+    <description>Recent content in Semaphores dictionary on Bordeaux-Threads</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 25 Jul 2020 08:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://sionescu.github.io/bordeaux-threads/semaphores/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>TODO: Class SEMAPHORE</title>
+      <link>https://sionescu.github.io/bordeaux-threads/semaphores/semaphore/</link>
+      <pubDate>Sat, 25 Jul 2020 08:00:00 +0000</pubDate>
+      
+      <guid>https://sionescu.github.io/bordeaux-threads/semaphores/semaphore/</guid>
+      <description>Syntax: Arguments and values: Exceptional situations: None.
+See also: Notes: </description>
+    </item>
+    
+    <item>
+      <title>TODO: Function SEMAPHOREP</title>
+      <link>https://sionescu.github.io/bordeaux-threads/semaphores/semaphorep/</link>
+      <pubDate>Sat, 25 Jul 2020 08:00:00 +0000</pubDate>
+      
+      <guid>https://sionescu.github.io/bordeaux-threads/semaphores/semaphorep/</guid>
+      <description>Syntax: Arguments and values: Exceptional situations: None.
+See also: Notes: </description>
+    </item>
+    
+    <item>
+      <title>TODO: Function MAKE-SEMAPHORE</title>
+      <link>https://sionescu.github.io/bordeaux-threads/semaphores/make-semaphore/</link>
+      <pubDate>Sat, 25 Jul 2020 08:00:00 +0000</pubDate>
+      
+      <guid>https://sionescu.github.io/bordeaux-threads/semaphores/make-semaphore/</guid>
+      <description>Syntax: Arguments and values: Exceptional situations: None.
+See also: Notes: </description>
+    </item>
+    
+    <item>
+      <title>TODO: Function SIGNAL-SEMAPHORE</title>
+      <link>https://sionescu.github.io/bordeaux-threads/semaphores/signal-semaphore/</link>
+      <pubDate>Sat, 25 Jul 2020 08:00:00 +0000</pubDate>
+      
+      <guid>https://sionescu.github.io/bordeaux-threads/semaphores/signal-semaphore/</guid>
+      <description>Syntax: Arguments and values: Exceptional situations: None.
+See also: Notes: </description>
+    </item>
+    
+    <item>
+      <title>TODO: Function WAIT-ON-SEMAPHORE</title>
+      <link>https://sionescu.github.io/bordeaux-threads/semaphores/wait-on-semaphore/</link>
+      <pubDate>Sat, 25 Jul 2020 08:00:00 +0000</pubDate>
+      
+      <guid>https://sionescu.github.io/bordeaux-threads/semaphores/wait-on-semaphore/</guid>
+      <description>Syntax: Arguments and values: Exceptional situations: None.
+See also: Notes: </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Locks dictionary on Bordeaux-Threads</title>
+    <link>https://sionescu.github.io/bordeaux-threads/locks/</link>
+    <description>Recent content in Locks dictionary on Bordeaux-Threads</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 25 Jul 2020 08:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://sionescu.github.io/bordeaux-threads/locks/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>TODO: Class LOCK</title>
+      <link>https://sionescu.github.io/bordeaux-threads/locks/lock/</link>
+      <pubDate>Sat, 25 Jul 2020 08:00:00 +0000</pubDate>
+      
+      <guid>https://sionescu.github.io/bordeaux-threads/locks/lock/</guid>
+      <description>Syntax: Arguments and values: Exceptional situations: None.
+See also: Notes: </description>
+    </item>
+    
+    <item>
+      <title>TODO: Function LOCKP</title>
+      <link>https://sionescu.github.io/bordeaux-threads/locks/lockp/</link>
+      <pubDate>Sat, 25 Jul 2020 08:00:00 +0000</pubDate>
+      
+      <guid>https://sionescu.github.io/bordeaux-threads/locks/lockp/</guid>
+      <description>Syntax: Arguments and values: Exceptional situations: None.
+See also: Notes: </description>
+    </item>
+    
+    <item>
+      <title>TODO: Class RECURSIVE-LOCK</title>
+      <link>https://sionescu.github.io/bordeaux-threads/locks/recursive-lock/</link>
+      <pubDate>Sat, 25 Jul 2020 08:00:00 +0000</pubDate>
+      
+      <guid>https://sionescu.github.io/bordeaux-threads/locks/recursive-lock/</guid>
+      <description>Syntax: Arguments and values: Exceptional situations: None.
+See also: Notes: </description>
+    </item>
+    
+    <item>
+      <title>TODO: Function RECURSIVE-LOCK-P</title>
+      <link>https://sionescu.github.io/bordeaux-threads/locks/recursive-lock-p/</link>
+      <pubDate>Sat, 25 Jul 2020 08:00:00 +0000</pubDate>
+      
+      <guid>https://sionescu.github.io/bordeaux-threads/locks/recursive-lock-p/</guid>
+      <description>Syntax: Arguments and values: Exceptional situations: None.
+See also: Notes: </description>
+    </item>
+    
+    <item>
+      <title>TODO: Function LOCK-NAME, LOCK-NATIVE-LOCK</title>
+      <link>https://sionescu.github.io/bordeaux-threads/locks/lock-readers/</link>
+      <pubDate>Sat, 25 Jul 2020 08:00:00 +0000</pubDate>
+      
+      <guid>https://sionescu.github.io/bordeaux-threads/locks/lock-readers/</guid>
+      <description>Syntax: Arguments and values: Exceptional situations: None.
+See also: Notes: </description>
+    </item>
+    
+    <item>
+      <title>TODO: Function NATIVE-LOCK</title>
+      <link>https://sionescu.github.io/bordeaux-threads/locks/native-lock/</link>
+      <pubDate>Sat, 25 Jul 2020 08:00:00 +0000</pubDate>
+      
+      <guid>https://sionescu.github.io/bordeaux-threads/locks/native-lock/</guid>
+      <description>Syntax: Arguments and values: Exceptional situations: None.
+See also: Notes: </description>
+    </item>
+    
+    <item>
+      <title>TODO: Function NATIVE-LOCK-P</title>
+      <link>https://sionescu.github.io/bordeaux-threads/locks/native-lock-p/</link>
+      <pubDate>Sat, 25 Jul 2020 08:00:00 +0000</pubDate>
+      
+      <guid>https://sionescu.github.io/bordeaux-threads/locks/native-lock-p/</guid>
+      <description>Syntax: Arguments and values: Exceptional situations: None.
+See also: Notes: </description>
+    </item>
+    
+    <item>
+      <title>TODO: Function MAKE-LOCK</title>
+      <link>https://sionescu.github.io/bordeaux-threads/locks/make-lock/</link>
+      <pubDate>Sat, 25 Jul 2020 08:00:00 +0000</pubDate>
+      
+      <guid>https://sionescu.github.io/bordeaux-threads/locks/make-lock/</guid>
+      <description>Syntax: Arguments and values: Exceptional situations: None.
+See also: Notes: </description>
+    </item>
+    
+    <item>
+      <title>TODO: Function ACQUIRE-LOCK, RELEASE-LOCK</title>
+      <link>https://sionescu.github.io/bordeaux-threads/locks/acquire-release-lock/</link>
+      <pubDate>Sat, 25 Jul 2020 08:00:00 +0000</pubDate>
+      
+      <guid>https://sionescu.github.io/bordeaux-threads/locks/acquire-release-lock/</guid>
+      <description>Syntax: Arguments and values: Exceptional situations: None.
+See also: Notes: </description>
+    </item>
+    
+    <item>
+      <title>TODO: Macro WITH-LOCK-HELD</title>
+      <link>https://sionescu.github.io/bordeaux-threads/locks/with-lock-held/</link>
+      <pubDate>Sat, 25 Jul 2020 08:00:00 +0000</pubDate>
+      
+      <guid>https://sionescu.github.io/bordeaux-threads/locks/with-lock-held/</guid>
+      <description>Syntax: Arguments and values: Exceptional situations: None.
+See also: Notes: </description>
+    </item>
+    
+    <item>
+      <title>TODO: Function MAKE-RECURSIVE-LOCK</title>
+      <link>https://sionescu.github.io/bordeaux-threads/locks/make-recursive-lock/</link>
+      <pubDate>Sat, 25 Jul 2020 08:00:00 +0000</pubDate>
+      
+      <guid>https://sionescu.github.io/bordeaux-threads/locks/make-recursive-lock/</guid>
+      <description>Syntax: Arguments and values: Exceptional situations: None.
+See also: Notes: </description>
+    </item>
+    
+    <item>
+      <title>TODO: Function ACQUIRE-RECURSIVE-LOCK, RELEASE-RECURSIVE-LOCK</title>
+      <link>https://sionescu.github.io/bordeaux-threads/locks/acquire-release-recursive-lock/</link>
+      <pubDate>Sat, 25 Jul 2020 08:00:00 +0000</pubDate>
+      
+      <guid>https://sionescu.github.io/bordeaux-threads/locks/acquire-release-recursive-lock/</guid>
+      <description>Syntax: Arguments and values: Exceptional situations: None.
+See also: Notes: </description>
+    </item>
+    
+    <item>
+      <title>TODO: Macro WITH-RECURSIVE-LOCK-HELD</title>
+      <link>https://sionescu.github.io/bordeaux-threads/locks/with-recursive-lock-held/</link>
+      <pubDate>Sat, 25 Jul 2020 08:00:00 +0000</pubDate>
+      
+      <guid>https://sionescu.github.io/bordeaux-threads/locks/with-recursive-lock-held/</guid>
+      <description>Syntax: Arguments and values: Exceptional situations: None.
+See also: Notes: </description>
+    </item>
+    
+  </channel>
+</rss>

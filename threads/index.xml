@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Threads dictionary on Bordeaux-Threads</title>
+    <link>https://sionescu.github.io/bordeaux-threads/threads/</link>
+    <description>Recent content in Threads dictionary on Bordeaux-Threads</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 25 Jul 2020 08:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://sionescu.github.io/bordeaux-threads/threads/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Class THREAD</title>
+      <link>https://sionescu.github.io/bordeaux-threads/threads/thread/</link>
+      <pubDate>Sat, 25 Jul 2020 08:00:00 +0000</pubDate>
+      
+      <guid>https://sionescu.github.io/bordeaux-threads/threads/thread/</guid>
+      <description>Class precedence list: thread, t
+Description A wrapper for host thread instances.</description>
+    </item>
+    
+    <item>
+      <title>Function THREAD-NAME, THREAD-NATIVE-THREAD</title>
+      <link>https://sionescu.github.io/bordeaux-threads/threads/thread-readers/</link>
+      <pubDate>Sat, 25 Jul 2020 08:00:00 +0000</pubDate>
+      
+      <guid>https://sionescu.github.io/bordeaux-threads/threads/thread-readers/</guid>
+      <description>Syntax: thread-name thread =&amp;gt; name
+thread-native-thread thread =&amp;gt; native-thread
+Arguments and values: thread -&amp;gt; an instance of class thread.
+name -&amp;gt; a string or nil
+native-thread -&amp;gt; a host thread instance.
+Description: These accessors return the public slots of class thread.
+Exceptional situations: None.</description>
+    </item>
+    
+    <item>
+      <title>Function: THREADP</title>
+      <link>https://sionescu.github.io/bordeaux-threads/threads/threadp/</link>
+      <pubDate>Sat, 25 Jul 2020 08:00:00 +0000</pubDate>
+      
+      <guid>https://sionescu.github.io/bordeaux-threads/threads/threadp/</guid>
+      <description>Syntax: threadp object =&amp;gt; generalized-boolean
+Arguments and values: object -&amp;gt; an object.
+generalized-boolean -&amp;gt; a generalized boolean.
+Description: Returns true if object is of type thread, otherwise false.
+Exceptional situations: None.
+Notes: (threadp object) == (typep object &#39;thread)</description>
+    </item>
+    
+    <item>
+      <title>Function: MAKE-THREAD</title>
+      <link>https://sionescu.github.io/bordeaux-threads/threads/make-thread/</link>
+      <pubDate>Sat, 25 Jul 2020 08:00:00 +0000</pubDate>
+      
+      <guid>https://sionescu.github.io/bordeaux-threads/threads/make-thread/</guid>
+      <description>Syntax: make-thread function &amp;amp;key name initial-bindings handle-conditions =&amp;gt; thread
+Arguments and values: function -&amp;gt; a function designator
+name -&amp;gt; a string or nil.
+initial-bindings -&amp;gt; an alist mapping special variable names to values. Defaults to *default-special-bindings*.
+handle-conditions -&amp;gt; if true, wrap the thread function in a handler-case.
+Description: Creates and returns a thread named name, which will call the function function with no arguments: when function returns, the thread terminates.</description>
+    </item>
+    
+    <item>
+      <title>TODO: Variable *DEFAULT-SPECIAL-BINDINGS*</title>
+      <link>https://sionescu.github.io/bordeaux-threads/threads/default-special-bindings/</link>
+      <pubDate>Sat, 25 Jul 2020 08:00:00 +0000</pubDate>
+      
+      <guid>https://sionescu.github.io/bordeaux-threads/threads/default-special-bindings/</guid>
+      <description>Syntax: Arguments and values: Exceptional situations: None.
+See also: Notes: </description>
+    </item>
+    
+    <item>
+      <title>TODO: Function CURRENT-THREAD, ALL-THREADS</title>
+      <link>https://sionescu.github.io/bordeaux-threads/threads/current-all-threads/</link>
+      <pubDate>Sat, 25 Jul 2020 08:00:00 +0000</pubDate>
+      
+      <guid>https://sionescu.github.io/bordeaux-threads/threads/current-all-threads/</guid>
+      <description>Syntax: Arguments and values: Exceptional situations: None.
+See also: Notes: </description>
+    </item>
+    
+    <item>
+      <title>TODO: Function JOIN-THREAD</title>
+      <link>https://sionescu.github.io/bordeaux-threads/threads/join-thread/</link>
+      <pubDate>Sat, 25 Jul 2020 08:00:00 +0000</pubDate>
+      
+      <guid>https://sionescu.github.io/bordeaux-threads/threads/join-thread/</guid>
+      <description>Syntax: Arguments and values: Exceptional situations: None.
+See also: Notes: </description>
+    </item>
+    
+    <item>
+      <title>TODO: Condition type ABNORMAL-EXIT</title>
+      <link>https://sionescu.github.io/bordeaux-threads/threads/abnormal-exit/</link>
+      <pubDate>Sat, 25 Jul 2020 08:00:00 +0000</pubDate>
+      
+      <guid>https://sionescu.github.io/bordeaux-threads/threads/abnormal-exit/</guid>
+      <description>Syntax: Arguments and values: Exceptional situations: None.
+See also: Notes: </description>
+    </item>
+    
+    <item>
+      <title>TODO: Function THREAD-YIELD</title>
+      <link>https://sionescu.github.io/bordeaux-threads/threads/thread-yield/</link>
+      <pubDate>Sat, 25 Jul 2020 08:00:00 +0000</pubDate>
+      
+      <guid>https://sionescu.github.io/bordeaux-threads/threads/thread-yield/</guid>
+      <description>Syntax: Arguments and values: Exceptional situations: None.
+See also: Notes: </description>
+    </item>
+    
+    <item>
+      <title>TODO: Function START-MULTIPROCESSING</title>
+      <link>https://sionescu.github.io/bordeaux-threads/threads/start-multiprocessing/</link>
+      <pubDate>Sat, 25 Jul 2020 08:00:00 +0000</pubDate>
+      
+      <guid>https://sionescu.github.io/bordeaux-threads/threads/start-multiprocessing/</guid>
+      <description>Syntax: Arguments and values: Exceptional situations: None.
+See also: Notes: </description>
+    </item>
+    
+    <item>
+      <title>TODO: Function INTERRUPT-THREAD</title>
+      <link>https://sionescu.github.io/bordeaux-threads/threads/interrupt-thread/</link>
+      <pubDate>Sat, 25 Jul 2020 08:00:00 +0000</pubDate>
+      
+      <guid>https://sionescu.github.io/bordeaux-threads/threads/interrupt-thread/</guid>
+      <description>Syntax: Arguments and values: Exceptional situations: None.
+See also: Notes: </description>
+    </item>
+    
+    <item>
+      <title>TODO: Function SIGNAL-IN-THREAD, WARN-IN-THREAD, ERROR-IN-THREAD</title>
+      <link>https://sionescu.github.io/bordeaux-threads/threads/signal-in-thread/</link>
+      <pubDate>Sat, 25 Jul 2020 08:00:00 +0000</pubDate>
+      
+      <guid>https://sionescu.github.io/bordeaux-threads/threads/signal-in-thread/</guid>
+      <description>Syntax: Arguments and values: Exceptional situations: None.
+See also: Notes: </description>
+    </item>
+    
+    <item>
+      <title>TODO: Function DESTROY-THREAD</title>
+      <link>https://sionescu.github.io/bordeaux-threads/threads/destroy-thread/</link>
+      <pubDate>Sat, 25 Jul 2020 08:00:00 +0000</pubDate>
+      
+      <guid>https://sionescu.github.io/bordeaux-threads/threads/destroy-thread/</guid>
+      <description>Syntax: Arguments and values: Exceptional situations: None.
+See also: Notes: </description>
+    </item>
+    
+    <item>
+      <title>TODO: Function THREAD-ALIVE-P</title>
+      <link>https://sionescu.github.io/bordeaux-threads/threads/thread-alive-p/</link>
+      <pubDate>Sat, 25 Jul 2020 08:00:00 +0000</pubDate>
+      
+      <guid>https://sionescu.github.io/bordeaux-threads/threads/thread-alive-p/</guid>
+      <description>Syntax: Arguments and values: Exceptional situations: None.
+See also: Notes: </description>
+    </item>
+    
+  </channel>
+</rss>
