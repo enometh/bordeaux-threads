@@ -90,6 +90,10 @@
 ;;; Semaphores
 ;;;
 
+#-lispworks6.1
+(eval-when (load eval compile)
+  (export '(mp::semaphore mp::condition-variable) (find-package "MP")))
+
 (deftype semaphore ()
   'mp:semaphore)
 
