@@ -64,7 +64,7 @@
   "relative to pwd, where the hugo sources reside.")
 
 (defvar $badpath "https://sionescu.github.io/bordeaux-threads/"
-  "baseURL from config.toml. (with relativeURLS = uglyRLS = false) ")
+  "baseURL from config.toml. (with relativeURLS = uglyURLS = false) ")
 
 (defvar *level* nil)
 
