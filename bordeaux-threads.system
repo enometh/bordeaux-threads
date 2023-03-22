@@ -42,7 +42,8 @@
         scl)
   (pushnew :thread-support *features*))
 
-#-thread-support
+
+#+(and (not clisp) (not thread-support))
 (error "This implementation is unsupported.")
 
 (mk:defsystem :bordeaux-threads
@@ -58,7 +59,7 @@
                  (:file "impl-abcl" :if-feature :armedbear)
                  (:file "impl-allegro" :if-feature :allegro)
                  (:file "impl-clasp" :if-feature :clasp)
-                 (:file "impl-clisp" :if-feature :clisp)
+                 (:file "impl-clisp" :if-feature (:and :clisp :thread-support))
                  (:file "impl-clozure" :if-feature :openmcl)
                  (:file "impl-cmucl" :if-feature :cmu)
                  (:file "impl-corman" :if-feature :corman)
@@ -83,7 +84,7 @@
                  (:file "impl-abcl" :if-feature :abcl)
                  (:file "impl-allegro" :if-feature :allegro)
                  (:file "impl-clasp" :if-feature :clasp)
-                 (:file "impl-clisp" :if-feature :clisp)
+                 (:file "impl-clisp" :if-feature (:and :clisp :mp))
                  (:file "impl-clozure" :if-feature :clozure)
                  (:file "impl-cmucl" :if-feature :cmu)
                  (:file "impl-corman" :if-feature :corman)
