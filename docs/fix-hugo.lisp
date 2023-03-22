@@ -126,11 +126,11 @@
 			 (doreplace-string string *level*))))
     (cl-user::string->file new-string pathname)))
 
-(defun doreplace-files (files)
+(defun doreplace-files (files &key function)
   (map nil (lambda (rel-path)
 	     (let* ((file-path (concatenate 'string $pwd rel-path))
 		    (level (get-level $doc-root rel-path)))
-	       (doreplace-file file-path level)))
+	       (doreplace-file file-path level :function function)))
        files))
 
 (defun make-file-list ()
