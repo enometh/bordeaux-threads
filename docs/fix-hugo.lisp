@@ -133,16 +133,18 @@
 	 (pass4 (cl-ppcre:regex-replace-all $scanner3 pass3 #'replacer3)))
     pass4))
 
-(defun doreplace-file (pathname *level*)
+(defun doreplace-file (pathname *level* &key function)
   (let* ((string (cl-user:slurp-file pathname nil :element-type 'character))
-	 (new-string (doreplace-string string *level*)))
+	 (new-string (if function
+			 (funcall function string *level*)
+			 (doreplace-string string *level*))))
     (cl-user::string->file new-string pathname)))
 
-(defun doreplace-files (files)
+(defun doreplace-files (files &key function)
   (map nil (lambda (rel-path)
 	     (let* ((file-path (concatenate 'string $pwd rel-path))
 		    (level (get-level $doc-root rel-path)))
-	       (doreplace-file file-path level)))
+	       (doreplace-file file-path level :function function)))
        files))
 
 (defun make-file-list ()
