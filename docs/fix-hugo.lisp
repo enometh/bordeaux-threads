@@ -119,9 +119,11 @@
 	 (pass3 (cl-ppcre:regex-replace-all $scanner2 pass2 #'replacer2)))
     pass3))
 
-(defun doreplace-file (pathname *level*)
+(defun doreplace-file (pathname *level* &key function)
   (let* ((string (cl-user:slurp-file pathname nil :element-type 'character))
-	 (new-string (doreplace-string string *level*)))
+	 (new-string (if function
+			 (funcall function string *level*)
+			 (doreplace-string string *level*))))
     (cl-user::string->file new-string pathname)))
 
 (defun doreplace-files (files)
