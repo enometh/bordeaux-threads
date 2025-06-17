@@ -117,8 +117,8 @@ Distributed under the MIT license (see LICENSE file)
 
 (defun destroy-thread (thread)
   (signal-error-if-current-thread thread)
-  (ccl:process-kill thread) ;; doesn't cut it
   #+nil
+  (ccl:process-kill thread) ;; doesn't cut it
   (ccl::process-initial-form-exited thread :kill))
 
 (defun thread-alive-p (thread)
