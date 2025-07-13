@@ -26,7 +26,7 @@
            `(let ((,tmp ,old))
               (eql ,tmp (sb-ext:compare-and-swap ,place ,old ,new))))
   #-(or allegro ccl clasp cmu ecl genera lispworks sbcl)
-  (signal-not-implemented 'atomic-cas))
+  `(signal-not-implemented 'atomic-cas))
 
 (defmacro atomic-decf (place &optional (delta 1))
   (declare (ignorable place delta))
@@ -39,7 +39,7 @@
   #+lispworks `(system:atomic-decf ,place ,delta)
   #+sbcl `(- (sb-ext:atomic-decf ,place ,delta) ,delta)
   #-(or allegro ccl clasp cmu ecl genera lispworks sbcl)
-  (signal-not-implemented 'atomic-decf))
+  `(signal-not-implemented 'atomic-decf))
 
 (defmacro atomic-incf (place &optional (delta 1))
   (declare (ignorable place delta))
@@ -52,7 +52,7 @@
   #+lispworks `(system:atomic-incf ,place ,delta)
   #+sbcl `(+ (sb-ext:atomic-incf ,place ,delta) ,delta)
   #-(or allegro ccl clasp cmu ecl genera lispworks sbcl)
-  (signal-not-implemented 'atomic-incf))
+  `(signal-not-implemented 'atomic-incf))
 
 (eval-when (load eval compile)
 (deftype %atomic-integer-value ()
@@ -75,7 +75,7 @@ The counter is a machine word: 32/64 bits depending on CPU."
   (%lock (%make-lock nil) :type native-lock)))
 
 #||
-(setq $a (^make-atomic-intege))
+(setq $a (make-atomic-integer))
 ||#
 
 (defmethod print-object ((aint atomic-integer) stream)
