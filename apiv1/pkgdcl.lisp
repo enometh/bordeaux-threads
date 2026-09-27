@@ -23,6 +23,8 @@
 
            #:with-timeout #:timeout
 
+   #:find-threads
+
            #:all-threads #:interrupt-thread #:destroy-thread #:thread-alive-p
            #:join-thread #:thread-yield)
   (:documentation "BORDEAUX-THREADS is a proposed standard for a minimal

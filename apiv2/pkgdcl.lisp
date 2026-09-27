@@ -27,6 +27,8 @@
    #:all-threads
    #:start-multiprocessing
 
+   #:find-threads
+
    #:interrupt-thread
    #:signal-in-thread
    #:warn-in-thread

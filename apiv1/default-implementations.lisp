@@ -355,3 +355,10 @@ cannot be decremented in that time, returns NIL without decrementing the count."
   returned."
   (declare (ignore thread))
   (error (make-threading-support-error)))
+
+#+nil
+(fmakunbound 'find-threads)
+(defdfun find-threads (name)
+    "Find threads matching NAME by SEARCH"
+  (remove-if-not (lambda (x) (search name (thread-name x)))
+		 (all-threads)))

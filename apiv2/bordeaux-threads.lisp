@@ -90,3 +90,8 @@
                  (format s "A timeout set to ~A seconds occurred."
                          (timeout-length c))
                  (format s "A timeout occurred.")))))
+
+(defun find-threads (name)
+  "Find threads matching NAME by SEARCH"
+  (remove-if-not (lambda (x) (search name (thread-name x)))
+		 (all-threads)))
